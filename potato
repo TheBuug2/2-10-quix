@@ -1,0 +1,18 @@
+#include<iostream>
+using namespace std;
+
+//declaration
+bool isPotato(string frank);
+
+int main() {
+	//call
+	cout << isPotato("potato");
+
+}
+//definition
+bool isPotato(string frank) {
+	if (frank == "potato")
+		return true;
+	else
+		return false;
+}
